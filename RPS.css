@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0f0f23;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+h1{
+    color: #fd79a8;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 30px;
+}
+.mainContainer{
+    background-color: #6c5ce7;
+    max-width: 600px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 0 auto;   
+}
+.scoreSection{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 20px;
+    margin-bottom: 30px;
+    gap: 90px;
+    justify-content: space-around;
+}
+.scoreLabel{
+    margin-bottom: 10px;
+}
+.choiceValue{
+    margin-bottom: 10px;
+}
+.scoreSection p{
+    display: flex;
+    flex-direction: column;   
+}
+
+.battleArena{
+    display: flex;
+    color: white;
+    margin: 30px;
+    gap: 90px;
+}
+.resultMessage{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px;
+}
+.choiceButons{
+    font-size: 16px;
+    margin: 30px;
+    display: flex;
+    gap: 90px;
+    padding: 20px;
+    
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+
+}

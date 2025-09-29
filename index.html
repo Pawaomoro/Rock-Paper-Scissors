@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="rock.js">
+    <link rel="stylesheet" href="RPS.css">
 </head>
 <body>
-    
+    <div class="mainContainer">
+        <div class="mainTitle">
+            <h1>ROCK PAPER SCISSORS</h1>
+        </div>
+        <div class="scoreSection">
+            <div class="scoreItem">
+                <div class="scoreLabel">YOU</div>
+                <div id="yourResult" class="scoreValue">5</div>
+            </div>
+            <div class="scoreItem">
+                <div class="scoreLabel">ROUND</div>
+                <div id="round" class="scoreValue">12</div>
+            </div>
+            <div class="scoreItem">
+                <div class="scoreLabel">COMPUTER</div>
+                <div id="computerResult" class="scoreValue">3</div>
+            </div>
+        </div>
+        <div class="battleArena">
+           <div class="choiceItem">
+            <div id="yourChoice" class="choiceValue">PAPER</div>
+            <div class="choiceLabel">Your Choice</div>
+           </div>
+           <div class="choiceItem">
+            <div class="choiceLabel">VS</div>
+           </div>
+           <div class="choiceItem">
+            <div id="computerChoice" class="choiceValue">SCISSORS</div>
+            <div class="choiceLabel">Computer Choice</div>
+           </div>
+        </div>
+        <div class="resultMessage">
+            <div id="result"></div>
+            <p>YOU WIN!</p>
+        </div>
+        <div class="choiceButons">
+            <button>ROCK</button>
+            <button>PAPER</button>
+            <button>SCISSORS</button>
+        </div>
+        <div class="resetButton">
+            <button>NEW GAME</button>
+        </div>
+    </div>  
 </body>
 </html>
